@@ -6,7 +6,7 @@ using System.Text;
 
 namespace restaurantManager.web.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<EmployeeData>
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
